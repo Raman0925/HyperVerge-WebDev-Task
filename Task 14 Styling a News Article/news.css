@@ -1,0 +1,13 @@
+.news{
+    text-align: center;
+    text-decoration: underline;
+}
+.news-article{
+    line-height: 1.6;
+    color: black;
+
+}
+.news-article-container{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}

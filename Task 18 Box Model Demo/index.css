@@ -1,0 +1,26 @@
+.box1{
+    border: 2px solid #000;
+    height: 200px;
+    width: 300px;
+    background-color: #e0e0e0;
+}
+.Box2{
+    border: 2px solid red;
+    height: 200px;
+    width: 300px;
+    box-sizing: border-box;
+
+
+}
+.box3{
+    border: 2px solid rgb(0, 42, 255);
+    height: 100px;
+    width: 150px;
+    margin-bottom: 300px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px 20px 10px 5px;
+    
+
+
+}

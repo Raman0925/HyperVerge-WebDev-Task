@@ -1,0 +1,36 @@
+.logo-container {
+    display: flex;
+    gap: 5px;
+    align-content: center;
+    margin: 20px;
+}
+
+.brand-Name {
+    margin-top: 13px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(244, 8, 8);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul li:hover {
+    background-color: #0808eb31;
+}

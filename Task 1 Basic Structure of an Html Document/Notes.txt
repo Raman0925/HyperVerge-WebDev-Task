@@ -1,0 +1,27 @@
+HTML is a Hyper text Markup Language. 
+HTML Basics:
+HTML stands for HyperText Markup language.
+This is the most basic building block of every web application.Without using HTML we
+ cannot build web applications. It is the mandotory technology.
+ We can use CSS to sstyle HTML Pages.
+We can use Java Script to add functionality to the HTML pages.
+In general we will add django template tags to HTML for generating dynamic content
+based on our requirement.
+Strcutre of HTML Page:
+Every HTML page contains 2 parts
+1) Head
+2) Body
+Head contains meta data like title of the page, keywords etc. CSS files and Java Script
+files information we have to specify in the Head Part only.
+Body contains actual content.
+ <!doctype html>// to indicate that it is HTML page
+<html >
+<head>
+Meta Data like keywords,author,title...
+ css files information
+ js files information
+</head>
+ <body>
+Actual Data
+ </body>
+ </html>

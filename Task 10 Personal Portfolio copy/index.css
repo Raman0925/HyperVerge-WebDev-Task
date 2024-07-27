@@ -1,0 +1,19 @@
+.profile-photo img{
+    
+    height: 250x;
+    border-radius: 50%;
+}
+
+/* Question can you how much to know css  */
+.profile-Container{
+    display: flex;
+    margin: 30px;
+    height: 150px;
+    justify-content: flex-start;
+    gap :30px;
+}
+hr {
+    border: 2px solid red;
+}
+
+
