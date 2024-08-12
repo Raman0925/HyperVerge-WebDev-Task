@@ -6,23 +6,33 @@
 $primaryFont : Helvetica;
 $primary : red;
 
+
 //Variables can be override.
 // Global Scope
 $primary-color: #3498db;
+$secondary-color: #2ecc71;
+$text-color: #333;
+$font-size: 16px / 2;
 
-h1 {
-  color: $primary-color;
+@import 'mixin';
+
+.size{
+   font-size: $font-size;
 }
-$primary-color: #3498db !default;
-// Local Scope
 .button {
-  $button-color: #e74c3c;
-  color: $button-color;
+  @include button-style(#000,#fff);
 }
 
-ul{
-    li {
-        
+$font-siz: (
+  "mobile": 10px,
+  "tablet": 20px,
+  "desktop": 30px
+);
 
-    }
-}
+// h1 {
+//   color: $primary-color;
+//   font-size: map-get($font-siz, "mobile");
+// }
+
+//map
+

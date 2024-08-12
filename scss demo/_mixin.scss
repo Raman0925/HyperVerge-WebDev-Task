@@ -1,0 +1,16 @@
+@mixin box-shadow($x: 0, $y: 0, $blur: 5px, $color: rgba(0, 0, 0, 0.3)) {
+    box-shadow: $x $y $blur $color;
+  }
+  
+  @mixin button-style($bg-color, $text-color) {
+    padding: 10px 20px;
+    border: none;
+    background-color: $bg-color;
+    color: $text-color;
+    cursor: pointer;
+    @include box-shadow(0, 2px, 4px, rgba(0, 0, 0, 0.2));
+  }
+  @mixin layout($align:center){
+    display :flex;
+    justify-content:  $align ;
+  }
