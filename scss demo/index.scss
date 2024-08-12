@@ -1,0 +1,28 @@
+// SCSS or Sassy CSS ia a preprocessor scripting language that is interpreted or compiled into CSS. It is more advanced version of the original Sass Syntax.
+//Goal is to make css easier to write and maintain
+
+
+//IN SCSS Variables are declared using the $ symbol.
+$primaryFont : Helvetica;
+$primary : red;
+
+//Variables can be override.
+// Global Scope
+$primary-color: #3498db;
+
+h1 {
+  color: $primary-color;
+}
+$primary-color: #3498db !default;
+// Local Scope
+.button {
+  $button-color: #e74c3c;
+  color: $button-color;
+}
+
+ul{
+    li {
+        
+
+    }
+}

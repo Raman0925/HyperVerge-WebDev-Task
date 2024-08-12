@@ -1,0 +1,7 @@
+Lets say we req to write or asked for some data from backend.
+It takes some time or latency. for that momment what should happen on front end.
+In java there is multithreading and in Js there is no multithreading so its a single threading language.
+Javascript by default supports only synchronous code execution. This only works for natively known to javascript.
+
+
+

@@ -42,3 +42,4 @@ console.log(belowFreezing);
 console.log("Creating a new array with below freezing temperatures using filter (arrow function):");
 belowFreezing = temperatures.filter(temperature => temperature < 0);
 console.log(belowFreezing);
+

@@ -1,0 +1,8 @@
+Promises are special JS ojects that are alsp considered readability enhnacers they get immediately
+returned form a function setups to return a Promises.
+
+They act as a placeholder for the data. we hopr to get back from some future task
+we also attach the functionality we want to defer the future task is done.
+
+and promise automatically handles executuion of tasks.
+
