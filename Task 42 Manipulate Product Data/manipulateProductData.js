@@ -21,9 +21,11 @@ const displayProducts = (products) => {
 // Calculate prices with tax
 const productsWithTax = products.map(product => {
     const tax = 0.1;
+    let productTax = product.price * tax
+    let ProductWithTax = product.price + productTax 
     return {
         ...product,
-        price: product.price + (product.price * tax)
+        price: ProductWithTax
     };
 });
 
@@ -31,15 +33,16 @@ const productsWithTax = products.map(product => {
 console.log("Products with Tax:");
 displayProducts(productsWithTax);
 
-const foodProducts = products.filter((product) => {
+const foodProducts = () => { products.filter((product) => {
      return {
         ...product,
        category : product.category === "food"}
 
-})
+})}
 
 
-const affordableProducts = products.filter((product) => {
+const affordableProducts = () =>
+    {products.filter((product) => {
     // Check if the price of the current product is less than 10
     if (product.price < 10) {
         // Return the product object
@@ -50,7 +53,7 @@ const affordableProducts = products.filter((product) => {
             category: product.category
         };
     }
-});
+});}
 
 const totalPriceCalculator = (products) => {
     let totalPrice = 0;
